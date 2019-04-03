@@ -24,5 +24,13 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void click_Button(object Sender, RoutedEventArgs e)
+        {
+            //MessageBox.Show("But");
+            //self.button.Text = "HHHH";
+            //button00.Content = "Tap Again";
+            textbox00.Text = "rrrrr";
+        }
     }
 }

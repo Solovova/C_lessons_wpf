@@ -1,12 +1,16 @@
-﻿<Window x:Class="WpfApp1.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
+        xmlns:Properties="clr-namespace:WpfApp1.Properties" x:Class="WpfApp1.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="89,0,0,0">
-        
+    <Grid Margin="63,0,90,0">
+        <Button Content="Button" x:Name="button00" Click ="click_Button" HorizontalAlignment="Left" Height="35" Margin="30,50,0,0" VerticalAlignment="Top" Width="175"/>
+
+        <TextBox x:Name="textbox00" HorizontalAlignment="Left" Height="35" Margin="275,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
+
     </Grid>
 </Window>
